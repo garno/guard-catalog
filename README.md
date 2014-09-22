@@ -3,7 +3,7 @@
 
 # Installation
 
-Before beginning, you'll need [guard](https://github.com/guard/guard) installed on your system.
+Before beginning, you'll need [guard](https://github.com/guard/guard) installed on your system :
 
 ```
 gem install guard
@@ -15,7 +15,7 @@ Once completed, install `guard-catalog` :
 gem install guard-catalog
 ```
 
-Finally, generate a `Guardfile` in the folder you want to *catalog*:
+Finally, generate a `Guardfile` in the folder you want to *catalog* :
 
 ```
 guard init catalog

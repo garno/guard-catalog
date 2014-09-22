@@ -2,13 +2,11 @@ PATH
   remote: .
   specs:
     guard-catalog (0.1.0)
-      catalog (~> 0.1.2)
       guard (~> 2.6)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    catalog (0.1.2)
     celluloid (0.16.0)
       timers (~> 4.0.0)
     coderay (1.1.0)

@@ -13,12 +13,11 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/garno/guard-catalog'
   spec.license       = 'BSD 3-Clause'
 
-  spec.files         = `git ls-files`.split($/)
-  spec.require_paths = ['lib/**/*']
+  spec.files         = Dir.glob('{lib}/**/*')
+  spec.require_path  = 'lib'
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake'
 
   spec.add_dependency 'guard', '~> 2.6'
-  spec.add_dependency 'catalog', '~> 0.1.2'
 end
